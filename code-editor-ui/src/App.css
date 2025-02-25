@@ -1,0 +1,104 @@
+.App {
+  display: flex;
+  font-family: Arial, sans-serif;
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #252526;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.sidebar h2 {
+  color: #d4d4d4;
+}
+
+.sidebar input, .sidebar button {
+  width: 100%;
+  margin: 5px 0;
+  padding: 5px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar li {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sidebar li:hover {
+  background-color: #333;
+}
+
+.editor-container {
+  flex: 1;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tabs {
+  display: flex;
+  margin-right: 10px;
+}
+
+.tab {
+  padding: 5px 10px;
+  background-color: #2d2d2d;
+  margin-right: 2px;
+  cursor: pointer;
+}
+
+.tab.active {
+  background-color: #1e1e1e;
+  border-bottom: 2px solid #007acc;
+}
+
+.tab span {
+  margin-left: 5px;
+  color: #888;
+}
+
+.tab span:hover {
+  color: #fff;
+}
+
+select, input {
+  padding: 5px;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 3px 8px; /* Reduce padding */
+  font-size: 14px; /* Reduce font size */
+}
+
+.errors, .compile-result {
+  margin-top: 10px;
+}
+
+h1, h3 {
+  color: #d4d4d4;
+}
+
+.compile-result pre {
+  background-color: #2d2d2d;
+  padding: 10px;
+  border-radius: 5px;
+  color: #ffffff;
+  white-space: pre-wrap;
+}
