@@ -134,3 +134,4 @@ Usage
         Auto-Completion: Type code; suggestions appear as you move the cursor.
         Syntax Checking: Errors/warnings update in real-time.
         Compile: Click "Compile" to run the active file’s code.
+
